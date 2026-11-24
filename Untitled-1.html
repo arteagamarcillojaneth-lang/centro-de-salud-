@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro de Salud Puebloviejo - Atención Médica Comunitaria</title>
+  <meta name="description" content="Información oficial del Centro de Salud Puebloviejo: horarios de consulta externa, servicios médicos, pasos para agendar citas, campañas de salud y contacto.">
+</head>
+<body>
+
+  <!-- Encabezado principal del sitio -->
+  <header>
+    <!-- Imagen decorativa (alt vacío para que el lector de pantalla la omita) -->
+    <img src="media/subcentro.jpg" alt="" width="36" height="36">
+    <h1>Centro de Salud Puebloviejo</h1>
+    <p>Atención primaria de salud gratuita y accesible para toda nuestra comunidad.</p>
+
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#servicios">Servicios médicos</a></li>
+        <li><a href="#citas">Cómo sacar una cita</a></li>
+        <li><a href="#horarios">Horarios de atención</a></li>
+        <li><a href="#multimedia">Campañas y avisos</a></li>
+        <li><a href="#contacto">Contacto y ubicación</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Sección de servicios médicos (lista desordenada) -->
+    <section id="servicios">
+      <h2>Servicios médicos disponibles</h2>
+      <p>
+        Brindamos atención preventiva y curativa a habitantes de Puebloviejo y sectores cercanos.
+        <strong>Para atención en consulta externa es indispensable presentar su cédula de ciudadanía.</strong>
+        En casos de <em>emergencia médica grave</em>, acuda directamente al área de triaje sin turno previo.
+      </p>
+
+      <h3>Cartera de servicios</h3>
+      <ul>
+        <li>Medicina general y atención integral familiar.</li>
+        <li>Obstetricia, control prenatal y planificación familiar.</li>
+        <li>Odontología preventiva y curativa.</li>
+        <li>Vacunación regular y campañas comunitarias de inmunización.</li>
+        <li>Entrega gratuita de medicamentos recetados en farmacia institucional.</li>
+      </ul>
+    </section>
+
+    <!-- Sección de pasos para agendar cita (lista ordenada) -->
+    <section id="citas">
+      <h2>Pasos para solicitar una consulta médica</h2>
+      <p>Siga este procedimiento ordenado para recibir atención:</p>
+
+      <ol>
+        <li>Agende su turno llamando a la línea gratuita 171 o acudiendo al módulo de admisión.</li>
+        <li>Preséntese en el centro de salud 15 minutos antes de la hora asignada.</li>
+        <li>Entregue su cédula de ciudadanía en ventanilla de estadística para abrir o verificar su historia clínica.</li>
+        <li>Pase al área de preparación para toma de signos vitales (peso, talla y presión arterial) antes de ingresar al consultorio.</li>
+      </ol>
+    </section>
+
+    <!-- Sección de horarios (tabla de datos con caption, thead, tbody y th) -->
+    <section id="horarios">
+      <h2>Horarios de atención por área</h2>
+      <table>
+        <caption>Horarios de atención al público en el Centro de Salud Puebloviejo</caption>
+        <thead>
+          <tr>
+            <th scope="col">Área o servicio</th>
+            <th scope="col">Días de atención</th>
+            <th scope="col">Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Consulta externa (Medicina general y Obstetricia)</th>
+            <td>Lunes a viernes</td>
+            <td>08:00 a 16:30</td>
+          </tr>
+          <tr>
+            <th scope="row">Odontología</th>
+            <td>Lunes a viernes</td>
+            <td>08:00 a 16:00</td>
+          </tr>
+          <tr>
+            <th scope="row">Vacunatorio</th>
+            <td>Lunes a viernes</td>
+            <td>08:00 a 15:30</td>
+          </tr>
+          <tr>
+            <th scope="row">Farmacia y entrega de medicación</th>
+            <td>Lunes a viernes</td>
+            <td>08:00 a 16:30</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Sección multimedia: picture, figure, video con subtítulos, audio con transcripción -->
+    <section id="multimedia">
+      <h2>Campañas de salud y avisos comunitarios</h2>
+
+      <!-- Imagen principal dentro de picture -->
+      <figure>
+        <picture>
+          <source srcset="media/establecimiento.jpg" type="image/jpeg">
+          <img src="media/subcentro.jpg" alt="Fachada e instalaciones del Centro de Salud Puebloviejo para atención médica comunitaria" width="800" height="450">
+        </picture>
+        <figcaption>Instalaciones del Centro de Salud Puebloviejo al servicio de la comunidad.</figcaption>
+      </figure>
+
+      <!-- Video corto con controles, poster, preload="metadata" y subtítulos .vtt en español -->
+      <figure>
+        <video controls preload="metadata" poster="media/establecimiento.jpg" width="640">
+          <source src="media/video-puebloviejo.mp4" type="video/mp4">
+          <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default>
+          Su navegador no soporta la reproducción de video HTML5. Puede consultar las recomendaciones escritas en la sección de campañas.
+        </video>
+        <figcaption>Video informativo (máximo 1 minuto): Medidas básicas para prevenir el dengue en el hogar.</figcaption>
+      </figure>
+
+      <!-- Audio con controles y su transcripción textual -->
+      <article>
+        <h3>Aviso de audio: Jornada de vacunación infantil</h3>
+        <audio controls preload="metadata">
+          <source src="media/aviso-puebloviejo.mp3" type="audio/mpeg">
+          Su navegador no soporta el elemento de audio HTML5.
+        </audio>
+        <p><strong>Transcripción del audio:</strong> "Atención familias de Puebloviejo: este viernes, de 08:30 a 14:00, el Centro de Salud realizará una jornada abierta de vacunación para niñas y niños menores de cinco años. Recuerde traer el carné de vacunación y la cédula del menor. ¡Los esperamos!"</p>
+      </article>
+    </section>
+
+    <!-- Sección de contacto y mapa -->
+    <section id="contacto">
+      <h2>Contacto y ubicación</h2>
+      <p>Comuníquese con nuestro personal de información a través de los siguientes canales:</p>
+      <ul>
+        <li>Teléfono de información: <a href="tel:+59352730100">Llamar al Centro de Salud Puebloviejo (+593 5 273 0100)</a></li>
+        <li>Correo electrónico: <a href="mailto:atencion.puebloviejo@salud.gob.ec">Enviar correo a atencion.puebloviejo@salud.gob.ec</a></li>
+        <li>WhatsApp informativo: <a href="https://wa.me/593991234567?text=Hola%2C%20necesito%20informaci%C3%B3n%20sobre%20horarios%20en%20el%20Centro%20de%20Salud%20Puebloviejo" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp al +593 99 123 4567</a></li>
+      </ul>
+
+      <!-- Mapa incrustado de Google Maps con title y loading="lazy" -->
+      <figure>
+        <iframe
+          src="https://www.google.com/maps?q=Centro+de+Salud+Puebloviejo,Los+Rios,Ecuador&output=embed"
+          width="600"
+          height="350"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa de ubicación del Centro de Salud Puebloviejo en Los Ríos, Ecuador">
+        </iframe>
+        <figcaption>Ubicación del Centro de Salud en Puebloviejo, Los Ríos.</figcaption>
+      </figure>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Centro de Salud Puebloviejo — Distrito de Salud, Los Ríos, Ecuador.</p>
+  </footer>
+
+</body>
+</html>
